@@ -41,7 +41,7 @@ public class punto2 {
             return primeraMitad==reverso;
         }
 
-        static string getNumeroDescendiente(string s) {
+        static string getNumeroDescendiente(string s) {//función que devuelve el descendiente de un numero
             int i = 0;
             string descendiente = "";
             if (s.Length == 2) {
@@ -56,8 +56,8 @@ public class punto2 {
         }
 
 
-        static bool descendienteCapicua(string s) {
-            if (isCapicua(s))
+        static bool descendienteCapicua(string s) {//funcion solucion
+            if (isCapicua(s)) //caso base
             {
                 return true;
             }
