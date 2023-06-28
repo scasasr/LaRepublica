@@ -1,0 +1,14 @@
+
+.primary{
+    width: 80%;
+    height: 10%;
+    background-color: #0000;
+}
+
+.secondary{
+    width: 50%;
+    height: 100%;
+    border-color: #0000;
+    margin-right: 10 px;
+}
+
